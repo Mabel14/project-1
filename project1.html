@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Black Lives Matter</title>
+        <link rel="stylesheet" href="project1.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="menu">
+                <ul>
+                    <li class="logo"><img src="https://www.axolandfriends.com/storage/app/media/images/blm_fist3.png"></li>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <a href="https://blacklivesmatter.com/"><li>NEWS</li></a>
+                    <li>CONTACT</li>
+                    <a href="https://uk.gofundme.com/f/ukblm-fund"><li>DONATE</li></a>
+                    <li><a href="#" class="sigup"><span>SIGN UP</span></a></li>
+                </ul>
+            </div>
+            <div class="banner">
+                <div class="app-text">
+                    <h1 class="anime">JOIN THE GLOBAL MOVEMENT</h1>
+                    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+                    <p class="anime1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br> 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div class="play-btn">
+                            <div class="play-btn-inner"></div>
+                        </div>
+                </div>
+                <div class="app-picture">
+                    <img style="float: right;" src="logo1.jpg">
+                </div>
+            </div>
+        </div>
+        <!--This is the javascript part of the code. THe following line of code helps link the html and Js without having to open a javascript file-->
+        <script type="text/javascript">
+        
+        const text = baffle('.anime');
+text.set({
+    characters : '/▓▒ ▒<>▓< ░██▒> >▒▒ ▓▓/░/ ██▓█ <▓▒ ▒▒░▓ ▓▓▒░',
+    speed: 120
+});
+text.start();
+text.reveal(4000);
+
+</script>
+
+
+
+
+
+    </body>
+</html>
